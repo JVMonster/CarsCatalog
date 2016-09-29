@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car_details_back"
+    android:alpha="0.7">
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/largeImage"
+        android:layout_height="200dp"
+        android:layout_width="1000dp"
+        android:src="@drawable/placeholder3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/largeImage"
+        android:layout_marginTop="15dp"
+        android:text="@string/car_details"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/descriptionShort"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/nameDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name: "/>
+
+        <TextView
+            android:id="@+id/modelDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Model: "/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstRow"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/locationDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Location: "/>
+
+        <TextView
+            android:id="@+id/priceDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Price: "/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/secondHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feautures"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/secondRow" />
+
+    <TextView
+        android:id="@+id/longDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Call"
+            android:background="@drawable/login_background"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Email"
+            android:background="@drawable/login_background"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

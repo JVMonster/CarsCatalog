@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="9">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Name:"/>
+            <TextView
+                android:id="@+id/nameTxt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+         </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Price:"/>
+            <TextView
+                android:id="@+id/priceTxt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Model:"/>
+            <TextView
+                android:id="@+id/modelTxt"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+               />
+        <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Location:"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/LocationTxt"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/Image_Short"
+        android:layout_height="25dp"
+        android:layout_width="35dp"
+        android:background="@drawable/audi"
+        android:layout_weight="3"/>
+
+
+
+</LinearLayout>

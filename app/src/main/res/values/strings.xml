@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">CarsCatalog</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_cars_list">CarsListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_header">CAR CLASSIFIED</string>
+    <string name="user_name_edit">User Name</string>
+    <string name="remember">Remember?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="smallHeader">Post your vehicle ads for free</string>
+    <string name="register_header">REGISTER</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone No</string>
+    <string name="user_agreement">By clicking register,You\'re agreed to \n our <ins>Terms</ins></string>
+    <string name="already_member">Already a member?</string>
+    <string name="condfirm_email">Confirm Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register_now">Register now</string>
+    <string name="login">&#xE899; LOGIN</string>
+    <string name="search_vehicles">Search Vehicles</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password">Password</string>
+    <string name="car_details">Car Details</string>
+    <string name="feautures">Feautures</string>
+    <string name="car_brands">Car Brands</string>
+    <string name="lock">&#128274;</string>
+</resources>
